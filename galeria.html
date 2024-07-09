@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+
+<title>Galeria - La Clementina</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="w3.css">
+<link rel="icon" type="image/x-icon" href="fotos/logoFavicon.png">
+<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap" rel="stylesheet">
+
+</head>
+<body>
+
+<div class="w3-fondo" id="menu">
+
+
+<!--BARRA-->
+<div class="w3-fondo w3-opacity-min w3-bar w3-top w3-large w3-padding-top-16 w3-hide-small topnav">
+  
+  <a href="index.html"><div class="w3-bar-item w3-hover-text-khaki w3-mobile w3-raleway4"> Inicio &emsp;</div></a>
+  <a href="nosotros.html"><div class="w3-bar-item w3-hover-text-khaki w3-mobile w3-raleway4"> Nosotros &emsp;</div></a>
+  <a href="galeria.html"><div class="w3-bar-item w3-hover-text-khaki w3-mobile w3-raleway4"> Galería &emsp;</div></a>
+  <a href="contacto.html"><div class="w3-bar-item w3-hover-text-khaki w3-mobile w3-raleway4"> Contacto &emsp;</div></a>
+  
+</div>
+
+
+
+<div class="w3-dropdown-click w3-show-small w3-hide-large w3-hide-medium w3-right">
+  <button onclick="myFunction()" class="w3-button"> <img src="fotos/menu.png" style="width: 25px; height: auto;"></button>
+  <div id="Demo" class="w3-dropdown-content w3-bar-block w3-border w3-card-4 w3-animate-zoom" style="right:0">
+    <a href="index.html" class="w3-bar-item  w3-hover-khaki w3-button w3-raleway4 w3-ripple"> Inicio </a>
+    <a href="nosotros.html" class="w3-bar-item  w3-hover-khaki w3-button w3-raleway4 w3-ripple"> Nosotros </a>
+    <a href="galeria.html" class="w3-bar-item  w3-hover-khaki w3-button w3-raleway4 w3-ripple"> Galeria </a>
+    <a href="contacto.html" class="w3-bar-item w3-hover-khaki w3-button w3-raleway4 w3-ripple"> Contacto </a>
+  
+  </div>
+
+</div>
+
+  <div class="w3-clear"></div>
+
+
+  <br>
+
+  <div class="w3-content" align="center">
+    <p class="w3-raleway w3-text-khaki" align="center"> G A L E R Í A </p>
+    <div class=" w3-display-container">
+        <img class="mySlides" src="fotos/cielo22.webp" style="width:90%">
+        <img class="mySlides" src="fotos/salon2.webp" style="width:90%;display:none">
+        <img class="mySlides" src="fotos/casa2.webp" style="width:90%;display:none">
+        <img class="mySlides" src="fotos/pileta22.webp" style="width:90%;display:none">
+        <img class="mySlides" src="fotos/parrilla2.webp" style="width:90%;display:none">
+        <img class="mySlides" src="fotos/frente2.webp" style="width:90%;display:none">
+        <img class="mySlides" src="fotos/panoramica2.jpeg" style="width:90%;display:none">
+        <img class="mySlides" src="fotos/banio2.webp" style="width:90%;display:none">
+        <img class="mySlides" src="fotos/cocina2.webp" style="width:90%;display:none">
+       
+
+      <button class="w3-display-left w3-button w3-xlarge w3-hover-deep-khaki w3-khaki w3-circle" onclick="plusDivs(-1)">
+        <img src="fotos/flechaIzquierda.png" style="width: 20px; height: auto;">
+      </button>
+      <button class="w3-display-right w3-button w3-xlarge w3-hover-deep-khaki w3-khaki w3-circle" onclick="plusDivs(+1)">
+        <img src="fotos/flechaDerecha.png" style="width: 20px; height: auto;">
+      </button>
+    </div>
+ 
+</div>
+
+
+
+
+
+
+ 
+
+   <div class="w3-row-padding w3-section w3-content" align="center">
+    
+    <div class="w3-col s4">
+      <img class="demo w3-opacity w3-hover-opacity-off w3-margin-top" src="fotos/cielo2.webp" style="width:80%;cursor:pointer" onclick="currentDiv(1)">
+    </div>
+    
+    <div class="w3-col s4">
+      <img class="demo w3-opacity w3-hover-opacity-off w3-margin-top" src="fotos/salon.webp" style="width:80%;cursor:pointer" onclick="currentDiv(2)">
+    </div>
+    
+    <div class="w3-col s4">
+      <img class="demo w3-opacity w3-hover-opacity-off w3-margin-top" src="fotos/casa.webp" style="width:80%;cursor:pointer" onclick="currentDiv(3)">
+    </div>
+    
+    <div class="w3-col s4">
+      <img class="demo w3-opacity w3-hover-opacity-off w3-margin-top" src="fotos/pileta2.webp" style="width:80%;cursor:pointer" onclick="currentDiv(4)">
+    </div>
+    
+    <div class="w3-col s4">
+      <img class="demo w3-opacity w3-hover-opacity-off w3-margin-top" src="fotos/parrilla.webp" style="width:80%;cursor:pointer" onclick="currentDiv(5)">
+    </div>
+    
+    <div class="w3-col s4">
+      <img class="demo w3-opacity w3-hover-opacity-off w3-margin-top" src="fotos/frente.webp" style="width:80%;cursor:pointer" onclick="currentDiv(6)">
+    </div>
+
+     <div class="w3-col s4">
+      <img class="demo w3-opacity w3-hover-opacity-off w3-margin-top" src="fotos/panoramica.jpeg" style="width:80%;cursor:pointer" onclick="currentDiv(7)">
+    </div>
+    
+    <div class="w3-col s4">
+      <img class="demo w3-opacity w3-hover-opacity-off w3-margin-top" src="fotos/banio1.jpeg" style="width:80%;cursor:pointer" onclick="currentDiv(8)">
+    </div>
+    
+    <div class="w3-col s4">
+      <img class="demo w3-opacity w3-hover-opacity-off w3-margin-top" src="fotos/cocina.webp" style="width:80%;cursor:pointer" onclick="currentDiv(9)">
+    </div>   
+
+  </div> <!--div columnas-->
+
+ <br>
+
+</div> <!--div class="w3-content w3-margin-top" align="center"-->
+
+
+
+<script>
+
+function currentDiv(n) {
+  showDivs(slideIndex = n);
+}
+
+
+var slideIndex = 1;
+showDivs(slideIndex);
+
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("demo");
+  if (n > x.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" w3-opacity-off", "");
+  }
+  x[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " w3-opacity-off";
+}
+
+
+//barra para celular
+function myFunction() {
+  var x = document.getElementById("Demo");
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+  } else { 
+    x.className = x.className.replace(" w3-show", "");
+  }
+}
+
+
+</script>
+
+<div class="w3-container w3-fondo">
+ <a href="#menu"> <img src="fotos/flechaArriba.png" align="right" style="width: 50px; height: auto;" class="image-hover"> </a>
+</div>
+
+ <!--FOOTER-->
+ <div class="w3-container w3-fondo">
+  <footer class="w3-khaki w3-text-white w3-center w3-padding-16 w3-margin2 w3-border">
+    
+      <img src="fotos/logo2.png" style="width: 120px; height: auto;">
+      <p class="w3-raleway3"> Copyright ©2023 designed by Dolores Calderón </p>
+     
+      <a href="https://www.instagram.com/clementina_casadecampo/" target="w3-blank"> <img src="fotos/instagram.png" style="width: 25px; height: auto;"></a>
+       &emsp;
+      <a href="https://www.facebook.com/profile.php?id=100090526024433" target="w3-blank"> <img src="fotos/facebook.png" style="width: 25px; height: auto;"></a>
+       &emsp;
+      <a href="https://wa.me/2235267138" target="w3-blank"> <img src="fotos/whatsapp.png" style="width: 25px; height: auto;"></a>
+ </footer>
+</div>
+
+
+</body>
+</html>
